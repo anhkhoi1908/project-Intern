@@ -1,0 +1,6 @@
+.sectionBlog_newsletter {
+    clip-path: polygon(50% 0, 100% 30%, 100% 70%, 50% 100%, 0% 70%, 0% 30%);
+    /* clip-path: inset(0 0 0 0 round 10%); */
+    background-color: #fff;
+    background-image: linear-gradient(to right, #ffcc00, #FAE58E);
+}

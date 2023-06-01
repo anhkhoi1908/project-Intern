@@ -1,0 +1,12 @@
+.slide_thinkingItem {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rem !important;
+}
+
+.slide_thinkingItemList {
+    max-width: 120rem !important;
+    padding: 20px 0 !important;
+}

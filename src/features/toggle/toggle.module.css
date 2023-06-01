@@ -1,0 +1,35 @@
+.switch_theme {
+    box-shadow: inset 0 0 1.6rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition-effect);
+    width: 6rem;
+    height: 3rem;
+    background-color: #83d8ff;
+    cursor: pointer;
+    appearance: none;
+    border-radius: 3rem;
+    position: relative;
+}
+
+.switch_theme::before {
+    content: "";
+    position: absolute;
+    width: 2.5rem;
+    height: 2.4rem;
+    left: 0.4rem;
+    top: 0.3rem;
+    background-color: #333;
+    border-radius: 50%;
+    box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition-effect);
+}
+
+.switch_theme:checked {
+    background: #749dd6;
+}
+
+.switch_theme:checked::before {
+    left: 3rem;
+    background-color: #fff;
+    box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.3);
+    transition: var(--transition-effect);
+}
