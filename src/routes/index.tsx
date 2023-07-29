@@ -24,4 +24,6 @@ const publicRoutes = [
     { path: "/loginFirebase", component: LoginFireBase },
 ];
 
+const x = 10;
+
 export default publicRoutes;
