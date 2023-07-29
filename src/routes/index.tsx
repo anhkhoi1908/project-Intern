@@ -8,6 +8,7 @@ import ViewDemoPage from "../pages/viewDemo";
 import SiteNavFeatures from "../pages/navTablet/siteNav-features";
 import SiteNavResources from "../pages/navTablet/siteNav-resources";
 import SiteNavMore from "../pages/navTablet/siteNav-more";
+import LoginFireBase from "../pages/loginFirebase";
 
 const publicRoutes = [
     { path: "/", component: NavTablet },
@@ -20,6 +21,7 @@ const publicRoutes = [
     { path: "/siteNavFeatures", component: SiteNavFeatures },
     { path: "/siteNavResources", component: SiteNavResources },
     { path: "/siteNavMore", component: SiteNavMore },
+    { path: "/loginFirebase", component: LoginFireBase },
 ];
 
 export default publicRoutes;

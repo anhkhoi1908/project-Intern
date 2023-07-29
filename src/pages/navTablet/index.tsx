@@ -34,7 +34,7 @@ function Icon(id: any, open: any) {
 const NavTablet = () => {
     const [open, setOpen] = useState();
 
-    const handleOpen = (value: any) => {
+    const handleOpen = (value: any) => {   
         setOpen(open === value ? false : value);
     };
 
